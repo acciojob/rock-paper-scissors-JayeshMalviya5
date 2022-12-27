@@ -7,7 +7,30 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div class="container">
+		<div class="input">
+			<input type="number" id="chance" data-ns-test="game-number">
+			
+			<button id="play" data-ns-test="play-button">Play</button>
+		</div>
+             <br></br> 
+		<div class="select">
+			<button id="rock" data-ns-test="rock">rock</button>
+			<button id="paper" data-ns-test="paper">paper</button>
+			<button id="scissor" data-ns-test="scissors">scissor</button>
+		</div>
+		<br></br> 
+		<div class="data">
+			<div id="user-point">User Points : 0</div>
+			<div id="computer-point" data-ns-test="computer-choose">Computers point : 0</div>
+			<div id="turn-left" data-ns-test="rounds-left">Turns left : 0</div>
+			<div id="result" data-ns-test="round-result">Result : 0</div>
+		</div>
+		<br></br> 
+		<div class="finalResult">
+			<div id="finalResult" data-ns-test="game-result"></div>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
